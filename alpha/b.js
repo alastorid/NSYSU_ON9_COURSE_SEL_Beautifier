@@ -267,8 +267,8 @@ $(document).ready(function() {
 		CssSel=(CssSel+1-stable)%(totalStyle-stable)+stable;
 		$('#GGstyle').attr("href",CssUrlTable[CssSel]);
 		$('#clickme').text(CssNameTable[CssSel]);
-		$('#OVO').fadeTo(448,0.2);
-		$('#OVO').fadeTo(64,1.0);
+		//$('#OVO').fadeTo(448,0.2);
+		//$('#OVO').fadeTo(64,1.0);
 	});
 	
 	$('.CourseTable').mousemove(function (e){
