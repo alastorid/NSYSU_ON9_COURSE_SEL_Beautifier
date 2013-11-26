@@ -1,0 +1,104 @@
+#OVO tr{
+background-color: rgba(255,255, 255,0.6);
+}
+
+#OVO th{
+font-weight: normal;
+font-size: 13px;
+text-transform: uppercase;
+padding: 20px;
+}
+
+#OVO table,#OVO ul{
+line-height: 1.5;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+text-align: left;
+border-collapse: collapse;
+border: 0px solid #6cf;
+margin: 20px;
+}
+#OVO table{
+	cellspacing: 1;
+	cellpadding: 0;
+}
+
+#OVO td{
+padding: 3px 3px;
+text-align: center;
+border:0;
+border-right: 1px solid #fff;
+border-bottom: 1px solid #fff;
+}
+
+#OVO font{
+color: #fff;
+}
+
+#OVO tr:hover ,#OVO li:hover{
+border:0px solid #aaa;
+border-radius: 8px;
+}
+
+#OVO .CourseTimeInAlphabet{
+	background: #90D03A;
+}
+
+#OVO .CourseTime{
+	background: #87CC33;
+}
+
+/*the course u selected
+*/
+#OVO .__course{
+	background: #66BDEA;
+	border-radius:16px;
+}
+
+#OVO .week{
+		background: #F60;
+}
+/* tittle
+*/
+#OVO .CourseTable{
+	background:  #F60;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/*link
+*/
+#OVO a{
+	font-size:16px;
+	color: #fff;
+	font-family:"Microsoft JhengHei", "MS Gothic",monospace;
+}
+#OVO tr:nth-child(even) {
+background: #eef7e6;
+}
+#OVO {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#clickme{
+	font-family: "MS Gothic", monospace;
+	position: absolute;
+	border-radius:6px;
+	background: rgba(255,255,255,0.888);
+	padding:4px;
+	font-size: 12px;
+	color:#f11;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+	-webkit-user-select: none; 
+    -o-user-select: none; 
+}
+
+#wowBox{
+	position: absolute;
+	background: #FF0080;
+	font-size: 15px;
+	font-family: "MS Gothic", monospace;
+	color: #fff;
+}
+
