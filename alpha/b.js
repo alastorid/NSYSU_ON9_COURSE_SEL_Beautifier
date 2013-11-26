@@ -1,18 +1,18 @@
 //latest URL
 // this is rev8
 //global Const Variables--------------------------------------------------
-var stable=1;
-var totalStyle=3;
+var stable=0;
+var totalStyle=2;
 
 //css Resourses
-var CssNameTable=['beta',
-'Default',
-'TaiwanHighSpeedRail'
+var CssNameTable=[
+'default',
+'vivid',
 ];
-var CssUrlTable=['https://docs.google.com/uc?export=download&id=0B--R0UZKhNeJVDJCZ21LOXJqWVE',
-'https://docs.google.com/uc?export=download&id=0B--R0UZKhNeJVTU1cTR3YVdkX1U',
-'https://docs.google.com/uc?export=download&id=0B--R0UZKhNeJZW9mY09vUzZZdlk'
-];
+var basename='https://raw.github.com/alastorid/NSYSU_ON9_COURSE_SEL_Beautifier/master/';
+var CssUrlTable=[
+basename+"stylesheet/default.css",
+basename+"stylesheet/vivd.css"];
 //-----------------------------
 //global Variables--------------
 var CssSel=0;
