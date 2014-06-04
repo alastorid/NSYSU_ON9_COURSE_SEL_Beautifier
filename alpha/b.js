@@ -9,7 +9,7 @@ var CssNameTable=[
 'default',
 'vivid',
 ];
-var basename='https://raw.github.com/alastorid/NSYSU_ON9_COURSE_SEL_Beautifier/master/';
+var basename='https://rawgithub.com/alastorid/NSYSU_ON9_COURSE_SEL_Beautifier/master/';
 var CssUrlTable=[
 basename+"stylesheet/default.css",
 basename+"stylesheet/vivid.css"];
